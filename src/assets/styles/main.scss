@@ -1,4 +1,3 @@
-@import "tailwindcss/index.css"; 
 /**
  * Use this file to import partials.
  * Do not include SCSS code in this file.
@@ -9,12 +8,13 @@
  */
 
 @import "variables";
-
+@import "tailwindcss/index.css";
 /**
  * Import npm dependencies
  * see: https://v2.parceljs.org/features/module-resolution/
  * see commented examples below
  */
+@import "@fortawesome/fontawesome-free/css/all.min.css";
 
 // @import "some-node-module";
 // @import "@some-company/some-node-module";
@@ -25,6 +25,7 @@
  */
 
 @import "layouts/home";
+@import "layouts/content";
 
 /**
  * Do NOT include anything else in this file!
